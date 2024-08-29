@@ -59,6 +59,7 @@ html{
     border-radius: 10px;
     cursor: pointer;
     transition: .4s;
+    
 }
 .btn>i{
     margin-left: 10px;
@@ -202,6 +203,7 @@ nav{
 .featured-text-btn>.blue-btn{
     background: var(--first-color);
     color: var(--color-white);
+    text-decoration: none;
 }
 .featured-text-btn>.blue-btn:hover{
     background: var(--first-color-hover);
@@ -314,7 +316,7 @@ h3{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-block: 30px 70px;
+    padding-block: 30px 70px ;
     padding-inline: 20px;
     width: 100%;
     background: var(--color-white);
@@ -323,7 +325,7 @@ h3{
 }
 .about-info p{
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     color: #777;
 }
 .about-btn button{
@@ -333,6 +335,7 @@ h3{
     background: var(--first-color);
     color: var(--color-white);
     border-radius: 30px;
+    
 }
 .about-btn button:hover{
     background: var(--first-color-hover);
